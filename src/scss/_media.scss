@@ -1,0 +1,141 @@
+
+@media (max-width: 1200px){
+
+}
+@media (max-width: 991px){
+    .wrapper{
+        margin-left: 5%;
+    }
+    .slick-prev, .slick-next{
+        display: none;
+        img{
+            display: none;
+        }
+    }
+    .riview__img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer__info{
+        width: 390px !important;
+        height: 200px !important;
+        h2{
+            margin: 10px 0 0 0 !important;
+        }
+    }
+}
+@media (max-width: 767px){
+    .wrapper{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .header-wrapper{
+        width: 767px;
+    }
+    .head-left-logo{
+        .head-img{
+            width: 150px;
+        }
+    }
+    .head-center{
+        font-size: 125px;
+        .texth{
+            font-size: 12px !important;
+            
+        }
+        .textp{
+            font-size: 10px !important;
+        }
+    }
+    .head-right{
+        a{
+            font-size: 15px !important;
+        }
+        button{
+            margin-left: 6px;
+            margin-top: 4px;
+            width: 120px !important;
+            height: 20px;  
+            font-size: 10px !important;
+            text-transform: uppercase;
+        }
+    }
+    .sub-head{
+        .general-text{
+            p{
+                font-size: 17px !important;
+            }
+            h2{
+                font-size: 30px !important;
+            }
+        }
+        .fichi{
+            margin-left: 100px !important;
+        }
+    }
+    .carusel{
+        max-width: 400px;
+        img{
+            width: 68%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .benefits{
+        margin-left: 100px;
+    }
+    .consultation{
+        width: 767px;
+    }
+    .catalog{
+        margin-left: 100px;
+    }
+    .riview__item{
+        margin-bottom: 50px;
+        
+    }
+    .footer__map{
+        width: 767px;
+    }
+    .footer__info{
+        top: 0 !important;
+        left: 150px !important ;
+        width: 300px !important;
+        height: 150px !important;
+        h2{
+            margin: 2px 0 0 0 !important;
+        }
+        a{
+            margin-top: 10px !important;
+        }
+    }
+    
+}
+@media (max-width: 575px){
+    .container{
+        width: 575px !important;
+    }
+    .head-center{
+        .textp{
+            font-size: 15px !important;
+        }
+        .texth{
+            font-size: 20px !important;
+        }
+    }
+    .footer__info{
+        top: 0 !important;
+        left: 150px !important ;
+        width: 300px !important;
+        height: 150px !important;
+        h2{
+            margin: 2px 0 0 0 !important;
+        }
+        a{
+            margin-top: 10px !important;
+        }
+    }
+    .footer{
+        width: 575px;
+    }
+}
