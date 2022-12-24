@@ -117,6 +117,7 @@ form{
     
 }
 .benefits-block{
+
     margin-top: 70px;
     text-align: center;
     h2{
@@ -579,3 +580,33 @@ form{
     #consultation, #order, #thanks{
         display: none;
     }
+    .pageup {
+        display: none;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        width: 40px;
+        height: 40px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .modd{
+        animation: hearbet;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+    }
+
+@keyframes hearbet{
+from{
+    transform: scale(1);
+}
+50%{
+    transform: scale(1.4);
+}
+to{
+    transform: scale(1);
+}
+}
